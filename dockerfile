@@ -5,7 +5,7 @@ FROM openjdk:17-jdk-slim
 WORKDIR /app
 
 # Copy the jar file from the host to the container
-COPY target/my-java-app.jar /app/my-java-app.jar
+COPY target/my-app-1.0-SNAPSHOT.jar /app/my-java-app.jar
 
 # Expose the port the application will run on (if applicable)
 EXPOSE 8080
